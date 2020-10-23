@@ -1,0 +1,2 @@
+set(rfans_driver_MESSAGE_FILES "/home/mixiangdong/ceshi_ws/src/rfans_driver/msg/steering_wheel_angle.msg;/home/mixiangdong/ceshi_ws/src/rfans_driver/msg/lidarpoint.msg;/home/mixiangdong/ceshi_ws/src/rfans_driver/msg/Point.msg;/home/mixiangdong/ceshi_ws/src/rfans_driver/msg/point_zx.msg;/home/mixiangdong/ceshi_ws/src/rfans_driver/msg/gps_data.msg")
+set(rfans_driver_SERVICE_FILES "/home/mixiangdong/ceshi_ws/src/rfans_driver/srv/RfansCommand.srv;/home/mixiangdong/ceshi_ws/src/rfans_driver/srv/null.srv")

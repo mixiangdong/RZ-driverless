@@ -1,0 +1,12 @@
+<launch>
+    <param name = "x_left" type = "double" value = "0.05" />
+    <param name = "x_right" type = "double" value = "15" />
+    <param name = "y_left" type = "double" value = "-6" />
+    <param name = "y_right" type = "double" value = "7" />
+    <param name = "point_min" type = "double" value = "5" />
+    <param name = "point_max" type = "double" value = "10000" />
+
+    <node name="cluster_disorder" pkg = "rfans_driver" type = "cluster_disorder"  />
+    <node name="line_peidui" pkg = "rfans_driver" type = "line_peidui" output = "screen" />
+    <node name="rviz" pkg = "rviz" type = "rviz" output = "screen" />
+</launch>

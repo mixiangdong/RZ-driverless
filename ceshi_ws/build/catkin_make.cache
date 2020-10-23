@@ -1,0 +1,2 @@
+rfans_driver:rslidar_sdk
+-DCATKIN_DEVEL_PREFIX=/home/mixiangdong/ceshi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mixiangdong/ceshi_ws/install -G Unix Makefiles
